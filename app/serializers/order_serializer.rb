@@ -5,7 +5,8 @@ class OrderSerializer < ActiveModel::Serializer
     self.object.purchases.map do |purchase|
       {id: purchase.id,
       rock: purchase.rock,
-      quantity: purchase.quantity}
+      quantity: purchase.quantity,
+      cost: purchase.cost}
     end
   end
 

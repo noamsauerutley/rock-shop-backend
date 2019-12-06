@@ -44,6 +44,6 @@ Order.create(user_id: 3, checkedout: false)
 
 #Purchases:
 10.times do
-    Purchase.create(rock_id:rand(1...13), order_id:rand(1...6), quantity:rand(1..10))
+    Purchase.create(rock_id:rand(1...13), order_id:rand(1...6), quantity:rand(1..10), cost:rand(1..100))
 end
 puts "Successful seed!"

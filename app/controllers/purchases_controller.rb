@@ -19,10 +19,15 @@ class PurchasesController < ApplicationController
       end 
     end 
 
+    def destroy
+      purchase = Purchase.find(params[:id])
+      purchase.destroy
+    end 
+
     private
 
     def purchase_params
-      params.require(:purchase).permit(:rock_id, :order_id, :quantity)
+      params.require(:purchase).permit(:rock_id, :order_id, :quantity, :cost)
     end 
 
 end
