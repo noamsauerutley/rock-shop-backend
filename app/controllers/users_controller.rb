@@ -8,9 +8,7 @@ class UsersController < ApplicationController
         user_id = params[:id]
         if current_user_id == user_id.to_i
         user = User.find(user_id)
-        render json: user.to_json(:include => {
-            :orders => {:only => [:id, :user_id]}
-          })
+        render json: user
         else render json: { go_away: true }, status: :unauthorized
         end
     end
