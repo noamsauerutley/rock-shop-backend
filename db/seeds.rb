@@ -13,6 +13,45 @@ Rock.create(name:"Obsidian", image_url:"https://geology.com/rocks/pictures/obsid
 Rock.create(name:"Orpiment", image_url:"https://i4w8j7y6.stackpathcdn.com/wp-content/uploads/2015/08/07Orpiment_thumb.jpg", description:"Found near hydrothermal vents, these rocks are made of arsenic and sulfur. Touching them is enough to release a neurotoxin", price:600, category:"Dangerous", color:"Red", rating:2, quantity:3)
 Rock.create(name:"Torbernite", image_url:"https://cdn.irocks.com/storage/media/52992/conversions/MD-120981a-large.jpg", description:"Found in granite and made of uranium, these green crystals have been long admired by collectors. As well as being radioactive however, the rocks release deadly radon gas when heated.", price:350, category:"Dangerous", color:"Green", rating:1, quantity:1)
 Rock.create(name:"Fluorite", image_url:"https://geology.com/minerals/photos/fluorite.jpg", description:'Fluorite is an important industrial mineral composed of calcium and fluorine (CaF2). It is used in a wide variety of chemical, metallurgical, and ceramic processes. Specimens with exceptional diaphaneity and color are cut into gems or used to make ornamental objects. Fluorite is deposited in veins by hydrothermal processes. In these rocks it often occurs as a gangue mineral associated with metallic ores. Fluorite is also found in the fractures and cavities of some limestones and dolomites. It is a very common rock-forming mineral found in many parts of the world. In the mining industry, fluorite is often called "fluorspar.', price:50, category:"Fancy", color:"Blue", rating:4, quantity:13)
+Rock.create(name:"Banded Tuff", image_url:"https://www.therockgallery.co.uk/ekmps/shops/therockgallery/images/banded-tuff-evidence-of-lake-district-volcanism-cumbria-3360-p.jpg", description:"Grisedale, near Patterdale, Cumbria
+
+The dramatic scenery at the heart of the Lake District is the result of cataclysmic volcanic eruptions in the late Ordovician period. Glacier-sculpted peaks such as Helvellyn may not look like volcanoes but they are entirely composed of lavas and other rocks that are the products of these eruptions and known as the Borrowdale Volcanic Group.
+
+At that time what is now Cumbria is thought to have been an island arc, similar to those in the west Pacific today, formed of a chain of volcanoes close to the boundary of two converging tectonic plates. The lavas were gaseous and rich in silica which led to violent eruptions and explosive flows of red hot ash and molten rock known as pyroclastic flows. When this ash was deposited and compacted it formed a rock called tuff, which is often finely bedded or banded, sometimes as a result of deposition in lakes. 
+
+This specimen stands upright for display.", price:50, category:"Metamorphic", color:"Grey", rating:4, quantity:22)
+Rock.create(name:"Desert Rose", image_url:"https://www.therockgallery.co.uk/ekmps/shops/therockgallery/images/desert-rose-north-africa-3845-p[ekm]300x300[ekm].jpg", description:"Desert roses are remarkable natural crystal formations.  They are rosette-shaped groups of gypsum crystals with inclusions of sand. 
+
+Desert roses normally form only in arid, sandy environments such as the Sahara Desert. 
+
+This is a very attractive example.", price:30, category:"Special", color:"Pink", rating:5, quantity:6)
+Rock.create(name:"Dendrite", image_url:"https://www.therockgallery.co.uk/ekmps/shops/therockgallery/images/dendrites-morocco-3835-p[ekm]300x300[ekm].jpg", description:"
+A dendrite is a mineral that develops with a multi-branching, tree-like form.  The patterns are often mistaken for fossil plants. 
+ 
+This example consists of an incrustation of a manganese mineral along joints in limestone.
+ ", price:36, category:"Special", color:"Grey", rating:4, quantity:12)
+Rock.create(name:"Hertfordshire Puddingstone", image_url:"https://www.therockgallery.co.uk/ekmps/shops/therockgallery/images/hertfordshire-puddingstone-cut-and-polished-both-sides--3806-p[ekm]300x300[ekm].jpg", description:"Puddingstone was formed about 60 million years ago as layers of flint pebbles were laid down by the sea across Hertfordshire. When the sea retreated the pebbles were cemented together by quartz when the climate was hot, probably similar to the present day Kalahari Desert.  The result was a layer of extremely hard rock called Hertfordshire Puddingstone. 
+
+During the Ice Age, about half a million years ago, pieces of puddingstone were carried by the early Thames from Hertfordshire into Essex.
+ 
+Puddingstone was popular in Victorian times for jewellery and decorative objects.", price:42, category:"Special", color:"Multicolor", rating:5, quantity:12)
+Rock.create(name:"Hematite", image_url:"https://www.therockgallery.co.uk/ekmps/shops/therockgallery/images/hematite-on-barite-strathclyde-scotland-3825-p[ekm]300x300[ekm].jpg", description:"An excellent example of botryoidal hematite on barite. This is a very fine large cabinet specimen of hematite from an unusual locality.
+
+​​​​​​​The hematite from Mannoch Hill occurs in veins of barite that cut through Silurian and Devonian rocks.", price:75, category:"Special", color:"Grey", rating:"3", quantity:4)
+Rock.create(name:"Menilite", image_url:"https://www.therockgallery.co.uk/ekmps/shops/therockgallery/images/menilite-morocco-3031-1-p[ekm]300x300[ekm].jpg", description:"Menilite is a type of opal that occurs as chalky white globular concretions.  It is named after Ménilmontant, a suburb of Paris, where it was first found.  It is now also known from other countries such as Japan, Spain and Morocco.", price:27, category:"Special", color:"White", rating:3, quantity:17)
+Rock.create(name:"Banded Ironstone", image_url:"https://www.therockgallery.co.uk/ekmps/shops/therockgallery/images/banded-ironstone-with-folding-2.5-billion-years-old-australia-593-p[ekm]300x300[ekm].jpg", description:" 
+A very fine example of the Banded Ironstone Formation of Western Australia, with beautiful folding.
+
+Banded ironstone provides unique evidence of the early history of life on Earth. It was formed under the sea by iron reacting with oxygen to form iron oxide (rust). This rock therefore provides the first evidence of oxygen appearing in the Earth's atmosphere, the oxygen being produced by rapidly increasing numbers of primitive, single celled algae - the only life forms at that time. These algae were for the first time using sunlight as a source of energy and producing oxygen as a by-product.
+ ", price:87, category:"Special", color:"Red", rating:3, quantity:22)
+Rock.create(name:"Breccia", image_url:"https://www.therockgallery.co.uk/ekmps/shops/therockgallery/images/marble-breccia-austria-1795-p[ekm]300x300[ekm].jpg", description:"Breccia is the name given to a rock containing fragments naturally cemented together.
+
+In this case the fragments are of marble and the whole rock was subjected to further heat and pressure underground forming a very colourful ‘marble breccia’", price:53, category:"Special", color:"Multicolor", rating:3, quantity:17)
+Rock.create(name:"Grape Chalcedony", image_url:"https://www.therockgallery.co.uk/ekmps/shops/therockgallery/images/grape-chalcedony-indonesia-3149-p[ekm]300x300[ekm].jpg", description:"A remarkable variety of quartz that forms in globular aggregates resembling a bunch of grapes.
+
+It is most commonly known as grape chalcedony (or grape agate) but it could equally be called amethyst due to the fact that the surface of the 'grapes' consists of tiny mauve-coloured quartz crystals that sparkle in reflected light.
+
+Specimens of this material only came on the market in 2016.", price:55, category:"Fancy", color:"Purple", rating:5, quantity:3)
 
 #Users:
 admin = User.new
